@@ -1,9 +1,11 @@
-package kz.vdenise.springkotlinblog.core.model
+package kz.vdenise.springkotlinblog.core.model.article
 
+import kz.vdenise.springkotlinblog.core.model.Topic
+import kz.vdenise.springkotlinblog.core.model.User
 import java.time.LocalDateTime
 
 data class Article(
-    val id: Int? = null,
+    val id: Int,
     val title: String,
     val pictureUri: String? = null,
     val annotation: String,
