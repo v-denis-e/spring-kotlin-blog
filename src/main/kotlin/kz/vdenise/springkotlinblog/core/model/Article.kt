@@ -8,6 +8,7 @@ data class Article(
     val pictureUri: String? = null,
     val annotation: String,
     val tags: List<String> = listOf(),
+    val topic: Topic,
     val likes: Long = 0,
     val author: User,
     val content: String,
